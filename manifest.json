@@ -1,0 +1,15 @@
+{
+  "name": "Side Panel Opening User Gesture Bug",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Side Panel Opening User Gesture Bug",
+  "action": {
+    "default_title": "Side Panel Opening User Gesture Bug"
+  },
+  "background": {
+    "service_worker": "service-worker-promise.js"
+  },
+  "permissions": [
+    "sidePanel"
+  ]
+}
